@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Booking Details</h1>
+    </header>
+    
+    <section id="booking">
+        <h2>Please fill in your details</h2>
+        <form action="thankyou.html" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            
+            <input type="email" id="email" name="email" required>
+            
+            <label for="room">Select Room:</label>
+            <select id="room" name="room" required>
+                <option value="Deluxe Room">Deluxe Room</option>
+                <option value="Suite">Suite</option>
+                <option value="Presidential Suite">Presidential Suite</option>
+            </select>
+            
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+            
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Contact us at: info@luxuryhotel.com</p>
+    </footer>
+</body>
+</html>

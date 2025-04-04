@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hotel.jpg') no-repeat center center/cover;
+    color: rgb(29, 18, 229);
+    padding: 100px 0;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.room-list, .restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.room-item, .restaurant-item {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+/* Updated contact-info */
+.contact-info {
+    display: flex;
+    justify-content: space-around; /* Ensure space between items */
+    margin-bottom: 20px;
+    padding: 0 20px; /* Add padding for spacing */
+    flex-wrap: wrap; /* Make sure content wraps on smaller screens */
+}
+
+.contact-info h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0 15px 0 0; /* Adds space between items */
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0 15px 0 0; /* Adds space between items */
+}
+
+.contact-info a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form */
+.contact-form {
+    margin-top: 20px;
+    text-align: center; /* Center the form */
+}
+
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto; /* Centers the contact info box */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Map Container */
+.map-container {
+    margin-top: 30px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+} i need contant us center
+
+/* Contact Info Section */
+#contact {
+    text-align: center; /* Centers all text inside the section */
+    padding: 20px;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto; /* Centers the contact info box */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    text-align: center; /* Ensures "Contact Us" is centered */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Contact Form */
+.contact-form {
+    text-align: center; /* Centers the form */
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 500px; /* Limits width for better layout */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.contact-form button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #218838;
+}
+
+/* Map Container */
+.map-container {
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}

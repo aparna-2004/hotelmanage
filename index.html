@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Luxury Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#restaurant">Restaurant</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Welcome to Luxury Hotel</h2>
+        <p>Experience comfort like never before</p>
+        <a href="#rooms" class="btn">Book Now</a>
+        
+    </section>
+    
+    <section id="rooms" class="room-container">
+        <h2>Available Rooms</h2>
+        <div class="room-list">
+            <div class="room-item">
+                <h3>Deluxe Room</h3>
+                <p>Price: $150 per night</p>
+                <button class="btn"><a href="booking.html">Book Now</a></button>
+            </div>
+            <div class="room-item">
+                <h3>Suite</h3>
+                <p>Price: $250 per night</p>
+                <button class="btn"><a href="booking.html">Book Now</a></button>
+            </div>
+            <div class="room-item">
+                <h3>Presidential Suite</h3>
+                <p>Price: $500 per night</p>
+                <button class="btn"><a href="booking.html">Book Now</a></button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="restaurant" class="restaurant">
+        <h2>Delicious Restaurant Menu</h2>
+        <div class="restaurant-list">
+            <div class="restaurant-item">
+                <h3>Italian Pasta</h3>
+                <p>Price: $20</p>
+                <button class="btn"><a href="order.html?item=Italian%20Pasta">Order Now</a></button>
+
+            </div>
+            <div class="restaurant-item">
+                <h3>Grilled Steak</h3>
+                <p>Price: $35</p>
+                <button class="btn"><a href="order.html?item=Grilled%20Steak">Order Now</a></button>
+
+            </div>
+            <div class="restaurant-item">
+                <h3>Luxury Dessert</h3>
+                <p>Price: $15</p>
+                <button class="btn"><a href="order.html?item=Luxury%20Dessert">Order Now</a></button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-info">
+            <h3> Contact Us</h3>
+
+            <p>Have any questions or inquiries? Get in touch with us!</p>
+
+            <p>Contact No: +91 1234567890</p>
+            <p>Email: <a href="mailto:info@luxuryhotel.com">info@luxuryhotel.com</a></p>
+        </div>
+        
+        <div class="contact-form">
+            <h3>Send us a message</h3>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    
+        <!-- Embedded Google Map -->
+        <div class="map-container">
+            <h3>Find Us</h3>
+            <!-- Embed Google Map -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390190.26739768564!2d78.67639915322627!3d10.790995432355105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba0c9d45d9f43b5%3A0x62f3b9f497a4e3c8!2sTrichy%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1646923794197!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <p>Contact us at: info@luxuryhotel.com</p>
+    </footer>
+</body>
+</html>
